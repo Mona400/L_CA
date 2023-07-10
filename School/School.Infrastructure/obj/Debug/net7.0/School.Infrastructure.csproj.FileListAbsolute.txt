@@ -1,0 +1,17 @@
+D:\SignalIR\School\School.Infrastructure\bin\Debug\net7.0\School.Infrastructure.deps.json
+D:\SignalIR\School\School.Infrastructure\bin\Debug\net7.0\School.Infrastructure.dll
+D:\SignalIR\School\School.Infrastructure\bin\Debug\net7.0\School.Infrastructure.pdb
+D:\SignalIR\School\School.Infrastructure\bin\Debug\net7.0\School.Data.dll
+D:\SignalIR\School\School.Infrastructure\bin\Debug\net7.0\School.Data.pdb
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\School.Infrastructure.csproj.AssemblyReference.cache
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\School.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\School.Infrastructure.AssemblyInfoInputs.cache
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\School.Infrastructure.AssemblyInfo.cs
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\School.Infrastructure.csproj.CoreCompileInputs.cache
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\School.Infrastructure.csproj.CopyComplete
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\School.Infrastructure.dll
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\refint\School.Infrastructure.dll
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\School.Infrastructure.pdb
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\ref\School.Infrastructure.dll
+D:\SignalIR\School\School.Infrastructure\bin\Debug\net7.0\School.Infrastructure.runtimeconfig.json
+D:\SignalIR\School\School.Infrastructure\obj\Debug\net7.0\School.Infrastructure.genruntimeconfig.cache

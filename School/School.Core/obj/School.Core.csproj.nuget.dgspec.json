@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\CV_Project\\L_CA\\School\\School.Core\\School.Core.csproj": {}
+  },
+  "projects": {
+    "G:\\CV_Project\\L_CA\\School\\School.Core\\School.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\CV_Project\\L_CA\\School\\School.Core\\School.Core.csproj",
+        "projectName": "School.Core",
+        "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Core\\School.Core.csproj",
+        "packagesPath": "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\",
+        "outputPath": "G:\\CV_Project\\L_CA\\School\\School.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\COMPU FAYEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "G:\\CV_Project\\L_CA\\School\\School.Data\\School.Data.csproj": {
+                "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Data\\School.Data.csproj"
+              },
+              "G:\\CV_Project\\L_CA\\School\\School.Infrastructure\\School.Infrastructure.csproj": {
+                "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Infrastructure\\School.Infrastructure.csproj"
+              },
+              "G:\\CV_Project\\L_CA\\School\\School.Service\\School.Service.csproj": {
+                "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Service\\School.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\CV_Project\\L_CA\\School\\School.Data\\School.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\CV_Project\\L_CA\\School\\School.Data\\School.Data.csproj",
+        "projectName": "School.Data",
+        "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Data\\School.Data.csproj",
+        "packagesPath": "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\",
+        "outputPath": "G:\\CV_Project\\L_CA\\School\\School.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\COMPU FAYEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\CV_Project\\L_CA\\School\\School.Infrastructure\\School.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\CV_Project\\L_CA\\School\\School.Infrastructure\\School.Infrastructure.csproj",
+        "projectName": "School.Infrastructure",
+        "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Infrastructure\\School.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\",
+        "outputPath": "G:\\CV_Project\\L_CA\\School\\School.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\COMPU FAYEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "G:\\CV_Project\\L_CA\\School\\School.Data\\School.Data.csproj": {
+                "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Data\\School.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\CV_Project\\L_CA\\School\\School.Service\\School.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\CV_Project\\L_CA\\School\\School.Service\\School.Service.csproj",
+        "projectName": "School.Service",
+        "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Service\\School.Service.csproj",
+        "packagesPath": "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\",
+        "outputPath": "G:\\CV_Project\\L_CA\\School\\School.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\COMPU FAYEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "G:\\CV_Project\\L_CA\\School\\School.Data\\School.Data.csproj": {
+                "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Data\\School.Data.csproj"
+              },
+              "G:\\CV_Project\\L_CA\\School\\School.Infrastructure\\School.Infrastructure.csproj": {
+                "projectPath": "G:\\CV_Project\\L_CA\\School\\School.Infrastructure\\School.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

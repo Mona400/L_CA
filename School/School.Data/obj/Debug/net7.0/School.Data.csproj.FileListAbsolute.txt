@@ -1,0 +1,12 @@
+D:\SignalIR\School\School.Data\bin\Debug\net7.0\School.Data.deps.json
+D:\SignalIR\School\School.Data\bin\Debug\net7.0\School.Data.dll
+D:\SignalIR\School\School.Data\bin\Debug\net7.0\School.Data.pdb
+D:\SignalIR\School\School.Data\obj\Debug\net7.0\School.Data.csproj.AssemblyReference.cache
+D:\SignalIR\School\School.Data\obj\Debug\net7.0\School.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\SignalIR\School\School.Data\obj\Debug\net7.0\School.Data.AssemblyInfoInputs.cache
+D:\SignalIR\School\School.Data\obj\Debug\net7.0\School.Data.AssemblyInfo.cs
+D:\SignalIR\School\School.Data\obj\Debug\net7.0\School.Data.csproj.CoreCompileInputs.cache
+D:\SignalIR\School\School.Data\obj\Debug\net7.0\School.Data.dll
+D:\SignalIR\School\School.Data\obj\Debug\net7.0\refint\School.Data.dll
+D:\SignalIR\School\School.Data\obj\Debug\net7.0\School.Data.pdb
+D:\SignalIR\School\School.Data\obj\Debug\net7.0\ref\School.Data.dll
