@@ -10,3 +10,15 @@ D:\SignalIR\School\School.Data\obj\Debug\net7.0\School.Data.dll
 D:\SignalIR\School\School.Data\obj\Debug\net7.0\refint\School.Data.dll
 D:\SignalIR\School\School.Data\obj\Debug\net7.0\School.Data.pdb
 D:\SignalIR\School\School.Data\obj\Debug\net7.0\ref\School.Data.dll
+G:\CV_Project\L_CA\School\School.Data\bin\Debug\net7.0\School.Data.deps.json
+G:\CV_Project\L_CA\School\School.Data\bin\Debug\net7.0\School.Data.dll
+G:\CV_Project\L_CA\School\School.Data\bin\Debug\net7.0\School.Data.pdb
+G:\CV_Project\L_CA\School\School.Data\obj\Debug\net7.0\School.Data.csproj.AssemblyReference.cache
+G:\CV_Project\L_CA\School\School.Data\obj\Debug\net7.0\School.Data.GeneratedMSBuildEditorConfig.editorconfig
+G:\CV_Project\L_CA\School\School.Data\obj\Debug\net7.0\School.Data.AssemblyInfoInputs.cache
+G:\CV_Project\L_CA\School\School.Data\obj\Debug\net7.0\School.Data.AssemblyInfo.cs
+G:\CV_Project\L_CA\School\School.Data\obj\Debug\net7.0\School.Data.csproj.CoreCompileInputs.cache
+G:\CV_Project\L_CA\School\School.Data\obj\Debug\net7.0\School.Data.dll
+G:\CV_Project\L_CA\School\School.Data\obj\Debug\net7.0\refint\School.Data.dll
+G:\CV_Project\L_CA\School\School.Data\obj\Debug\net7.0\School.Data.pdb
+G:\CV_Project\L_CA\School\School.Data\obj\Debug\net7.0\ref\School.Data.dll

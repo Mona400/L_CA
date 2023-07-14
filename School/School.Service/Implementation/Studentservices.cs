@@ -28,6 +28,7 @@ namespace School.Service.Implementation
         {
             var student = _studentRepositories.GetTableNoTracking()
                                              .Include(x => x.Department)
+                                             .Where(s=>s.StudID==id)
                                              .FirstOrDefault();
             return student;
                                              
