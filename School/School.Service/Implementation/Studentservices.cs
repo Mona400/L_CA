@@ -33,5 +33,17 @@ namespace School.Service.Implementation
             return student;
                                              
         }
+        public async Task<string> AddAsync(Student student)
+        {
+            var studentResult = _studentRepositories.GetTableNoTracking()
+                                                  .Where(x=>x.Name.Equals(student.Name))
+                                                  .FirstOrDefault();
+            if (studentResult != null)
+            {
+                return "Exist";
+            }
+            await _studentRepositories.AddAsync(student);
+            return "Add Successfully";
+        }
     }
 }

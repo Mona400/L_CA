@@ -18,10 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Students\Commands\Handelers\" />
-    <Folder Include="Features\Students\Commands\Models\" />
     <Folder Include="Features\Students\Commands\Validators\" />
-    <Folder Include="Mapping\Students\CommanMapping\" />
   </ItemGroup>
 
 </Project>
