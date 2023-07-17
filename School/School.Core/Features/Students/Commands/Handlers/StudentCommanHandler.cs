@@ -21,9 +21,7 @@ namespace School.Core.Features.Students.Commands.Handelers
         {
             var studentMapper = _mapper.Map<Student>(request);
             var result = await _studentServices.AddAsync(studentMapper);
-            if (result == "Exist")
-                return UnprocessableEntity<string>("Name is Exist");
-            else if (result == "Success")
+            if (result == "Success")
                 return Created("Added Successfully");
             else
                 return BadRequest<string>();

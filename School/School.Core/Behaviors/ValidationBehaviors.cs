@@ -21,9 +21,9 @@ namespace School.Core.Behaviors
                 var context = new ValidationContext<TRequest>(request);
                 var validationResults = await Task.WhenAll(_validators.Select(v => v.ValidateAsync(context, cancellationToken)));
                 var failures = validationResults.SelectMany(r => r.Errors).Where(f => f != null).ToList();
-                if (failures.Count != null)
+                if (failures.Count != 0)
                 {
-                    var message = failures.Select(x => x.PropertyName + ": " + x.ErrorMessage).FirstOrDefault();
+                    var message = failures.Select(x => x.ErrorMessage).FirstOrDefault();
                     throw new ValidationException(message);
                 }
             }
