@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o3RG/d6zODJ0A6nKOxAPflIygAI8m8ql16yJ9UBNvNKA2ITu8+dW2pPlaegmf3FAQXS8Tk579P6fHHaqqTRS0g==",
+  "dgSpecHash": "nKDgNeqEVxc7bVwRj5JNqihNeXgmzXxxRrbTIIWLPzjlzAnFk5wkSIXHRkjnGa8A8DgmHt74FTBzqgYEmSrpQw==",
   "success": true,
   "projectFilePath": "G:\\CV_Project\\L_CA\\School\\School.Core\\School.Core.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,12 @@
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.6.0\\fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

@@ -174,3 +174,5 @@ G:\CV_Project\L_CA\School\School.API\obj\Debug\net7.0\scopedcss\bundle\School.AP
 G:\CV_Project\L_CA\School\School.API\obj\Debug\net7.0\School.API.csproj.CopyComplete
 G:\CV_Project\L_CA\School\School.API\obj\Debug\net7.0\School.API.genruntimeconfig.cache
 G:\CV_Project\L_CA\School\School.API\obj\Debug\net7.0\ref\School.API.dll
+G:\CV_Project\L_CA\School\School.API\bin\Debug\net7.0\FluentValidation.dll
+G:\CV_Project\L_CA\School\School.API\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

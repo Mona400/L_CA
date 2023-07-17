@@ -2,11 +2,6 @@
 using School.Data.Entities;
 using School.Infrastructure.Abstracties;
 using School.Service.Abstracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School.Service.Implementation
 {
@@ -28,15 +23,15 @@ namespace School.Service.Implementation
         {
             var student = _studentRepositories.GetTableNoTracking()
                                              .Include(x => x.Department)
-                                             .Where(s=>s.StudID==id)
+                                             .Where(s => s.StudID == id)
                                              .FirstOrDefault();
             return student;
-                                             
+
         }
         public async Task<string> AddAsync(Student student)
         {
             var studentResult = _studentRepositories.GetTableNoTracking()
-                                                  .Where(x=>x.Name.Equals(student.Name))
+                                                  .Where(x => x.Name.Equals(student.Name))
                                                   .FirstOrDefault();
             if (studentResult != null)
             {
@@ -44,6 +39,15 @@ namespace School.Service.Implementation
             }
             await _studentRepositories.AddAsync(student);
             return "Add Successfully";
+        }
+        public async Task<bool> IsNameExist(string name)
+        {
+            //Check if the name is exist or Not
+            var student = _studentRepositories.GetTableNoTracking().Where(x => x.Name.Equals(name)).FirstOrDefault();
+            if (student == null)
+                return false;
+            return true;
+
         }
     }
 }

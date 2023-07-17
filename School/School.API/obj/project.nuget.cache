@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FeGkIbt/0loieVfIGBYuvyPjM/5ekDM0YT15crWH/AeU0O3+t3NXiY0sY1tvUDNStCLjsDW5cmL/YphmKFmd1Q==",
+  "dgSpecHash": "8azmPtbF00j8D120SQjiwRv+KnVAoESIpzwSf+tsxUqITbt1a/M/rUnc+QCcZLwlCaymlh4+PGnL0ctR/5CCIA==",
   "success": true,
   "projectFilePath": "G:\\CV_Project\\L_CA\\School\\School.API\\School.API.csproj",
   "expectedPackageFiles": [
@@ -8,9 +8,13 @@
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.6.0\\fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

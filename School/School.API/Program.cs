@@ -1,12 +1,10 @@
 
 using Microsoft.EntityFrameworkCore;
 using School.Core;
+using School.Core.MiddleWare;
 using School.Infrastructure;
-using School.Infrastructure.Abstracties;
 using School.Infrastructure.Data;
-using School.Infrastructure.Repositories;
 using School.Service;
-using System.Runtime.CompilerServices;
 
 namespace School.API
 {
@@ -34,9 +32,9 @@ namespace School.API
             builder.Services.AddInfrastructureDependencies()
                             .AddServicesDependencies()
                             .AddCoreDependencies();
-          
+
             #endregion
-          
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -46,6 +44,7 @@ namespace School.API
                 app.UseSwaggerUI();
             }
 
+            app.UseMiddleware<ErrorHandlerMiddleWare>();
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
