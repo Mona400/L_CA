@@ -49,5 +49,19 @@ namespace School.Service.Implementation
             return true;
 
         }
+        public async Task<bool> IsNameExistExecuteSelf(string name, int id)
+        {
+            //Check if the name is exist or Not
+            var student = await _studentRepositories.GetTableNoTracking().Where(x => x.Name.Equals(name) & !x.StudID.Equals(id)).FirstOrDefaultAsync();
+            if (student == null)
+                return false;
+            return true;
+        }
+        public async Task<string> EditAsync(Student student)
+        {
+            await _studentRepositories.UpdateAsync(student);
+            return "Success";
+
+        }
     }
 }
