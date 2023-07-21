@@ -10,6 +10,7 @@ namespace School.Core.Mapping.Students
             GetStudentByIdMapping();
             AddStudentCommanMapping();
             EditStudentCommanMapping();
+            DeleteStudentCommanMapping();
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using School.Data.Entities;
+using School.Data.Helpers;
 using School.Infrastructure.Abstracties;
 using School.Service.Abstracts;
 
@@ -62,6 +63,53 @@ namespace School.Service.Implementation
             await _studentRepositories.UpdateAsync(student);
             return "Success";
 
+        }
+        public async Task<string> DeleteAsync(Student student)
+        {
+            var trans = _studentRepositories.BeginTransaction();
+            try
+            {
+                await _studentRepositories.DeleteAsync(student);
+                await trans.CommitAsync();
+                return "Success";
+            }
+            catch
+            {
+                await trans.RollbackAsync();
+                return "Faild";
+            }
+
+        }
+        public IQueryable<Student> GetListStudentsQuerable()
+        {
+            return _studentRepositories.GetTableNoTracking().Include(x => x.Department).AsQueryable();
+        }
+        public IQueryable<Student> FilterStudentPaginatedQuerable(StudentOrderingEnum orderingEnum, string search)
+        {
+            var querable = _studentRepositories.GetTableNoTracking().Include(x => x.Department).AsQueryable();
+            if (search != null)
+            {
+                querable = querable.Where(x => x.Name.Contains(search) || x.Address.Contains(search));
+            }
+            switch (orderingEnum)
+            {
+                case StudentOrderingEnum.StudID:
+                    querable = querable.OrderBy(x => x.StudID);
+                    break;
+                case StudentOrderingEnum.Name:
+                    querable = querable.OrderBy(x => x.Name);
+                    break;
+                case StudentOrderingEnum.Address:
+                    querable = querable.OrderBy(x => x.Address);
+                    break;
+                case StudentOrderingEnum.DepartmentName:
+                    querable = querable.OrderBy(x => x.Department.DName);
+                    break;
+                default:
+                    querable = querable.OrderBy(x => x.StudID);
+                    break;
+            }
+            return querable;
         }
     }
 }
