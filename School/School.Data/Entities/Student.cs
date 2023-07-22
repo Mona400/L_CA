@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using School.Data.Commans;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School.Data.Entities
 {
-    public class Student
+    public class Student : GeneralLocalizableEntity
     {
         [Key]
         public int StudID { get; set; }
-        [StringLength(200)]
-        public string Name { get; set; }
+        public string NameAr { get; set; }
+        public string NameEn { get; set; }
         public string Address { get; set; }
         [StringLength(500)]
         public string Phone { get; set; }

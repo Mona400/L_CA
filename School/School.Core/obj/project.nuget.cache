@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nKDgNeqEVxc7bVwRj5JNqihNeXgmzXxxRrbTIIWLPzjlzAnFk5wkSIXHRkjnGa8A8DgmHt74FTBzqgYEmSrpQw==",
+  "dgSpecHash": "TeeILsRFcfunyiHXYuRU0s+CXYDWXf1rx6wss9s/jJolZKYXkwDJsV3Uq9QhXlDiWuzR+5dizQbNxV+Wm0yc9A==",
   "success": true,
   "projectFilePath": "G:\\CV_Project\\L_CA\\School\\School.Core\\School.Core.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\7.0.9\\microsoft.extensions.localization.abstractions.7.0.9.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\COMPU FAYEZ\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",

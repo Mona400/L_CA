@@ -176,3 +176,6 @@ G:\CV_Project\L_CA\School\School.API\obj\Debug\net7.0\School.API.genruntimeconfi
 G:\CV_Project\L_CA\School\School.API\obj\Debug\net7.0\ref\School.API.dll
 G:\CV_Project\L_CA\School\School.API\bin\Debug\net7.0\FluentValidation.dll
 G:\CV_Project\L_CA\School\School.API\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+G:\CV_Project\L_CA\School\School.API\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+G:\CV_Project\L_CA\School\School.API\bin\Debug\net7.0\Ar\School.Core.resources.dll
+G:\CV_Project\L_CA\School\School.API\bin\Debug\net7.0\En\School.Core.resources.dll

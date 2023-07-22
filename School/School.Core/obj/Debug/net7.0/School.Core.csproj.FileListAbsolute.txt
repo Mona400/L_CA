@@ -36,3 +36,10 @@ G:\CV_Project\L_CA\School\School.Core\obj\Debug\net7.0\School.Core.dll
 G:\CV_Project\L_CA\School\School.Core\obj\Debug\net7.0\refint\School.Core.dll
 G:\CV_Project\L_CA\School\School.Core\obj\Debug\net7.0\School.Core.pdb
 G:\CV_Project\L_CA\School\School.Core\obj\Debug\net7.0\ref\School.Core.dll
+G:\CV_Project\L_CA\School\School.Core\bin\Debug\net7.0\Ar\School.Core.resources.dll
+G:\CV_Project\L_CA\School\School.Core\bin\Debug\net7.0\En\School.Core.resources.dll
+G:\CV_Project\L_CA\School\School.Core\obj\Debug\net7.0\School.Core.Resources.SharedResourses.Ar.resources
+G:\CV_Project\L_CA\School\School.Core\obj\Debug\net7.0\School.Core.Resources.SharedResourses.En.resources
+G:\CV_Project\L_CA\School\School.Core\obj\Debug\net7.0\School.Core.csproj.GenerateResource.cache
+G:\CV_Project\L_CA\School\School.Core\obj\Debug\net7.0\Ar\School.Core.resources.dll
+G:\CV_Project\L_CA\School\School.Core\obj\Debug\net7.0\En\School.Core.resources.dll

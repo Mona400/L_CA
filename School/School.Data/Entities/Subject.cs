@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace School.Data.Entities
 {
@@ -17,7 +12,9 @@ namespace School.Data.Entities
         [Key]
         public int SubID { get; set; }
         [StringLength(5000)]
-        public string SubjectName { get; set; }
+        public string SubjectNameAr { get; set; }
+        [StringLength(5000)]
+        public string SubjectNameEn { get; set; }
         public DateTime Period { get; set; }
         public virtual ICollection<StudentSubject> StudentSubjects { get; set; }
         public virtual ICollection<DepartmentSubject> DepartmentSubjects { get; set; }

@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using MediatR;
+using Microsoft.Extensions.Localization;
 using School.Core.Bases;
 using School.Core.Features.Students.Commands.Models;
+using School.Core.Resources;
 using School.Data.Entities;
 using School.Service.Abstracts;
 
@@ -13,10 +15,12 @@ namespace School.Core.Features.Students.Commands.Handelers
     {
         private readonly IStudentServices _studentServices;
         private readonly IMapper _mapper;
-        public StudentCommanHandler(IStudentServices studentServices, IMapper mapper)
+        private readonly IStringLocalizer<SharedResourses> _Localizer;
+        public StudentCommanHandler(IStudentServices studentServices, IMapper mapper, IStringLocalizer<SharedResourses> localizer) : base(localizer)
         {
             _studentServices = studentServices;
             _mapper = mapper;
+            _Localizer = localizer;
         }
 
         public async Task<Response<string>> Handle(AddStudentCommand request, CancellationToken cancellationToken)
@@ -24,7 +28,7 @@ namespace School.Core.Features.Students.Commands.Handelers
             var studentMapper = _mapper.Map<Student>(request);
             var result = await _studentServices.AddAsync(studentMapper);
             if (result == "Success")
-                return Created("Added Successfully");
+                return Created("");
             else
                 return BadRequest<string>();
         }

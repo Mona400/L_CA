@@ -1,10 +1,13 @@
 
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using School.Core;
 using School.Core.MiddleWare;
 using School.Infrastructure;
 using School.Infrastructure.Data;
 using School.Service;
+using System.Globalization;
 
 namespace School.API
 {
@@ -35,7 +38,37 @@ namespace School.API
 
             #endregion
 
+            #region Localization
+
+            builder.Services.AddControllersWithViews();
+            builder.Services.AddLocalization(opt =>
+            {
+                opt.ResourcesPath = "";
+            });
+
+            builder.Services.Configure<RequestLocalizationOptions>(options =>
+            {
+                List<CultureInfo> supportedCultures = new List<CultureInfo>
+    {
+            new CultureInfo("en-US"),
+            new CultureInfo("de-DE"),
+            new CultureInfo("fr-FR"),
+            new CultureInfo("en-GB"),
+            new CultureInfo("ar-EG")
+    };
+
+                options.DefaultRequestCulture = new RequestCulture("ar-EG");
+                options.SupportedCultures = supportedCultures;
+                options.SupportedUICultures = supportedCultures;
+            });
+            #endregion
+
             var app = builder.Build();
+
+            #region Localization Midelware
+            var options = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
+            app.UseRequestLocalization(options.Value);
+            #endregion
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
