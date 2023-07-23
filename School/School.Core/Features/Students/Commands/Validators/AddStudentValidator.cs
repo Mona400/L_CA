@@ -20,21 +20,28 @@ namespace School.Core.Features.Students.Commands.Validators
         }
         public void ApplyValidationRules()
         {
-            RuleFor(x => x.Name)
+            RuleFor(x => x.NameAr)
                 .NotEmpty().WithMessage(_Localizer[SharedResoursesKeys.NotEmpty])
-                .NotNull().WithMessage("Name Must Not Be Null")
-                .MaximumLength(100).WithMessage("Max Length is 10");
+                .NotNull().WithMessage(_Localizer[SharedResoursesKeys.Required])
+                .MaximumLength(100).WithMessage(_Localizer[SharedResoursesKeys.MaxLengthIs100]);
+            RuleFor(x => x.NameEn)
+                .NotEmpty().WithMessage(_Localizer[SharedResoursesKeys.NotEmpty])
+                .NotNull().WithMessage(_Localizer[SharedResoursesKeys.Required])
+                .MaximumLength(100).WithMessage(_Localizer[SharedResoursesKeys.MaxLengthIs100]);
 
             RuleFor(x => x.Address)
-                .NotEmpty().WithMessage("{PropertyName} Must Not Be Empty")
-                .NotNull().WithMessage("{PropertyName} Must Not Be Null")
-                .MaximumLength(100).WithMessage("{PropertyName} Length Is 10");
+                .NotEmpty().WithMessage(_Localizer[SharedResoursesKeys.NotEmpty])
+                .NotNull().WithMessage(_Localizer[SharedResoursesKeys.Required])
+                .MaximumLength(100).WithMessage(_Localizer[SharedResoursesKeys.MaxLengthIs100]);
         }
         public void ApplyCustomValdationRules()
         {
-            RuleFor(x => x.Name)
-                .MustAsync(async (Key, CancellationToken) => !await _studentServices.IsNameExist(Key))
-                .WithMessage("Name Is Exist");
+            RuleFor(x => x.NameAr)
+                .MustAsync(async (Key, CancellationToken) => !await _studentServices.IsNameArExist(Key))
+                .WithMessage(_Localizer[SharedResoursesKeys.IsExist]);
+            RuleFor(x => x.NameEn)
+               .MustAsync(async (Key, CancellationToken) => !await _studentServices.IsNameEnExist(Key))
+               .WithMessage(_Localizer[SharedResoursesKeys.IsExist]);
 
         }
     }

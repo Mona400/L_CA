@@ -41,19 +41,36 @@ namespace School.Service.Implementation
             await _studentRepositories.AddAsync(student);
             return "Add Successfully";
         }
-        public async Task<bool> IsNameExist(string name)
+        public async Task<bool> IsNameArExist(string nameAr)
         {
             //Check if the name is exist or Not
-            var student = _studentRepositories.GetTableNoTracking().Where(x => x.NameAr.Equals(name)).FirstOrDefault();
+            var student = _studentRepositories.GetTableNoTracking().Where(x => x.NameAr.Equals(nameAr)).FirstOrDefault();
             if (student == null)
                 return false;
             return true;
 
         }
-        public async Task<bool> IsNameExistExecuteSelf(string name, int id)
+        public async Task<bool> IsNameEnExist(string nameEn)
         {
             //Check if the name is exist or Not
-            var student = await _studentRepositories.GetTableNoTracking().Where(x => x.NameAr.Equals(name) & !x.StudID.Equals(id)).FirstOrDefaultAsync();
+            var student = _studentRepositories.GetTableNoTracking().Where(x => x.NameEn.Equals(nameEn)).FirstOrDefault();
+            if (student == null)
+                return false;
+            return true;
+
+        }
+        public async Task<bool> IsNameArExistExecuteSelf(string nameAr, int id)
+        {
+            //Check if the name is exist or Not
+            var student = await _studentRepositories.GetTableNoTracking().Where(x => x.NameAr.Equals(nameAr) & !x.StudID.Equals(id)).FirstOrDefaultAsync();
+            if (student == null)
+                return false;
+            return true;
+        }
+        public async Task<bool> IsNameEnExistExecuteSelf(string nameEn, int id)
+        {
+            //Check if the name is exist or Not
+            var student = await _studentRepositories.GetTableNoTracking().Where(x => x.NameEn.Equals(nameEn) & !x.StudID.Equals(id)).FirstOrDefaultAsync();
             if (student == null)
                 return false;
             return true;

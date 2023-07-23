@@ -36,17 +36,17 @@ namespace School.Core.Features.Students.Commands.Handelers
         public async Task<Response<string>> Handle(EditStudentCommand request, CancellationToken cancellationToken)
         {
             //Check the Id is Exist or not
-            var student = _studentServices.GetStudentByIdAsync(request.Id);
+            var student = await _studentServices.GetStudentByIdAsync(request.Id);
             //Return Not Found
             if (student == null)
                 return NotFound<string>("Student Is Not Found");
             //Mapping Between request and student
-            var studentMapper = _mapper.Map<Student>(request);
+            var studentMapper = _mapper.Map(request, student);
             //Calling Service that make Edit
             var result = await _studentServices.EditAsync(studentMapper);
             //return Response
             if (result == "Success")
-                return Success($"Edit Successfully {studentMapper.StudID}");
+                return Success((string)_Localizer[SharedResoursesKeys.Updated]);
             else
                 return BadRequest<string>();
         }
