@@ -175,8 +175,8 @@ namespace School.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SubID"));
 
-                    b.Property<DateTime?>("Period")
-                        .HasColumnType("datetime2");
+                    b.Property<int?>("Period")
+                        .HasColumnType("int");
 
                     b.Property<string>("SubjectNameAr")
                         .HasMaxLength(100)

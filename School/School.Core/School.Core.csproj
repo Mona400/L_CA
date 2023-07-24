@@ -21,4 +21,11 @@
     <ProjectReference Include="..\School.Service\School.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Departments\Commands\Handlers\" />
+    <Folder Include="Features\Departments\Commands\Models\" />
+    <Folder Include="Features\Departments\Commands\Validators\" />
+    <Folder Include="Mapping\Departments\CommanMapping\" />
+  </ItemGroup>
+
 </Project>

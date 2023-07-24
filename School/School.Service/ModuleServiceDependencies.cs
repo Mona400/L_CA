@@ -6,9 +6,10 @@ namespace School.Service
 {
     public static class ModuleServiceDependencies
     {
-        public static IServiceCollection AddServicesDependencies( this IServiceCollection services)
+        public static IServiceCollection AddServicesDependencies(this IServiceCollection services)
         {
             services.AddTransient<IStudentServices, Studentservices>();
+            services.AddTransient<IDepartmentServices, DepartmentServices>();
             return services;
         }
     }

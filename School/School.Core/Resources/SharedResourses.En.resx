@@ -145,7 +145,7 @@
     <value>This Field Is Required</value>
   </data>
   <data name="Success" xml:space="preserve">
-    <value>Added Successfully</value>
+    <value>Operation Is Done</value>
   </data>
   <data name="UnAuthorized" xml:space="preserve">
     <value>You are not Authorized To Access This Resources</value>

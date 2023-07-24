@@ -128,5 +128,10 @@ namespace School.Service.Implementation
             }
             return querable;
         }
+
+        public IQueryable<Student> GetStudentsByDepartmentIdQuerable(int DID)
+        {
+            return _studentRepositories.GetTableNoTracking().Where(x => x.DID.Equals(DID)).AsQueryable();
+        }
     }
 }
